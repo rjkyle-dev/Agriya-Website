@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agriya</title>
+    <link rel="shortcut icon" href="./assets/logo/logos.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./webfonts/all.css">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+
+</head>
+<style>
+    @media (max-width: 950px) {
+        .toggle-collapse {
+            display: block;
+            /* Make it visible */
+        }
+    }
+
+    @media (min-width: 951px) {
+        .toggle-collapse {
+            display: none;
+            /* Hide it on larger screens */
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top nav">
+        <div class="container-fluid titled">
+            <a class="navbar-brand d-inline-flex" href="#">
+                <img src="assets/logo/logos.png" alt="Logo"
+                    class="logo d-inline-block align-text-top">
+                    Agriya
+            </a>
+              
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <div class="offcanvas-title main-logo d-block" id="offcanvasNavbarLabel">
+                        <!-- <a class="navbar-brand" href="#">
+                        <img src="assets/logo/logos.png" alt="Logo" class="d-inline-block align-text-top p-2 logo">
+                        <h3>Agriya</h3>
+                    </a> -->
+                </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link text-light active btns" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown mt-1">
+                                
+    <button
+        id="dropdownButton"
+        class="btn dropdown-toggle border-0 text-light mr-2"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+    >
+        Category
+    </button>
+    <ul id="dropdownMenu" class="dropdown-menu">
+        <li><a class="dropdown-item" href="gallery/playground.html">Playground</a></li>
+        <li><a class="dropdown-item" href="gallery/fishpond.html">Fishpond</a></li>
+        <li><a class="dropdown-item" href="gallery/farm.html">Farm</a></li>
+        <li><a class="dropdown-item" href="gallery/foodcourt.html">Food Court</a></li>
+    </ul>
+</li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light active btns" aria-current="page" href="about/index.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light active btns" aria-current="page" href="contact/index.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex social-icon gap-3">
+                            <div class="icon">
+                                <a href="">
+                                    <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="site-title" id="home">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Panabo City</h3>
+                <h1>Agriya</h1>
+
+            </div>
+            <div class="btns">
+
+                <button class="btn" onclick="window.location.href='#explore'">Explore</button>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="blog container-fluid d-flex align-items-center justify-content-center">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/image/playground/p2.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Playground</h3>
+                                <button class="btn btn-blog"
+                                    onclick="window.location.href='gallery/playground.html'">See more</button>
+
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./assets/image/fishpond/1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Fish Pond</h3>
+                                <button class="btn btn-blog" onclick="window.location.href='gallery/fishpond.html'">See
+                                    more</button>
+
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./assets/image/farm/f1.jpg" alt="">
+                            <div class="blog-title">
+                                <h3>Farm</h3>
+                                <button class="btn btn-blog" onclick="window.location.href='gallery/farm.html'">See
+                                    more</button>
+
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./assets/image/new/c3.jpg" style="width: auto; height: 220px; object-fit: fill;"
+                                alt="post-1">
+                            <div class="blog-title">
+                                <h3>Food Court</h3>
+                                <button class="btn btn-blog" onclick="window.location.href='gallery/foodcourt.html'">See
+                                    more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container" id="explore">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/image/Yanyan/home.jpg" class="img" alt="blog1">
+                            </div>
+
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Why should boys have all the fun? it's the women who are making india an
+                                alcohol-loving contry</a>
+                            <p>Agriya, located in Panabo City, is a visionary community that blends modern living with
+                                sustainable farming. Inspired by
+                                the city’s rich agricultural heritage as the "Banana Capital of the Philippines," Agriya
+                                offers a balanced lifestyle
+                                where urban convenience meets rural serenity. With features such as agri-tourism
+                                attractions, modern residences, an
+                                educational hub, and thoughtfully planned commercial spaces, Agriya fosters a thriving
+                                environment for families,
+                                businesses, and communities. It is home to the University of Southeastern Philippines –
+                                Agriya Campus and promotes
+                                sustainability through eco-friendly practices like rainwater harvesting and green
+                                spaces. At Agriya, innovation and
+                                agriculture come together to create a vibrant community that connects people to nature
+                                and the future.
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/image/Yanyan/t1.jpg" class="img" alt="blog1">
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Why should boys have all the fun? it's the women who are making india an
+                                alcohol-loving contry</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                                illum similique veniam tempore unde?
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/image/IG/4.jpg" class="img" alt="blog1">
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Why should boys have all the fun? it's the women who are making india an
+                                alcohol-loving contry</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas deserunt beatae
+                                adipisci iusto totam placeat corrupti ipsum, tempora magnam incidunt aperiam tenetur a
+                                nobis, voluptate, numquam architecto fugit. Eligendi quidem ipsam ducimus minus magni
+                                illum similique veniam tempore unde?
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+
+
+
+
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <a href="gallery/playground.html">
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                    Playground
+
+                                </li>
+                            </a>
+                            <a href="gallery/farm.html">
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                    Farm
+
+                                </li>
+                            </a>
+                            <a href="gallery/fishpond.html">
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                    Fish Pond
+                                </li>
+                            </a>
+                            <a href="gallery/foodcourt.html">
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                    Food Court
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Features</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/image/stand/7.jpg" class="img" alt="blog1">
+                                </div>
+
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/image/stand/5.jpg" class="img" alt="blog1">
+                                </div>
+
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/image/stand/1.jpg" class="img" alt="blog1">
+                                </div>
+
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/image/stand/6.jpg" class="img" alt="blog1">
+                                </div>
+
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </aside>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p>Agriya, located in the heart of Panabo City, is a visionary agricultural and residential development
+                    inspired by the
+                    harmonious blend of modern living and sustainable farming. This master-planned community reflects
+                    the rich agricultural
+                    heritage of Panabo City, known as the "Banana Capital of the Philippines," while embracing
+                    innovative practices that
+                    cater to the needs of the future.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Email Us</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/image/IG/3.jpg" alt="insta1">
+                    <img src="./assets/image/IG/6.jpg" alt="insta1">
+                    <img src="./assets/image/IG/5.jpg" alt="insta1">
+
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/image/concha/a1.jpg" alt="insta4">
+                    <img src="./assets/image/IG/Township-Agriya-f2.jpg" alt="instas">
+                    <img src="./assets/image/concha/a3.jpg" alt="insta4">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <a href="http://www.facebook.com/agriya.ph" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/agriya.ph" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mpbibat@anflocor.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2024 All rights reserved | Promotional Website - Agriya
+                <a href="https://damosaland.com/" target="_black">Damosaland
+                    Channel</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    
+
+    <script src="./js/jquery.js"></script>
+    <!-- <script src="./js/Jquery3.4.1.min.js"></script> -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+    <script src="./js/main.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
