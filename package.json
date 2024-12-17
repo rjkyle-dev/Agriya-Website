@@ -6,6 +6,7 @@
     "owl.carousel": "^2.3.4"
   },
   "scripts": {
-    "kyle": "index.html"
+    "kyle": "index.html",
+    "deploy": "git add . && git commit -m 'update' && git push -u origin main"
   }
 }
