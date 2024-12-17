@@ -116,6 +116,14 @@
       padding: 0;
       margin-top: 2%;
     }
+    .about-details{
+      position: relative;
+      top: -15%;
+    }
+    .about-image-wrapper{
+        margin-left: 8rem;
+    }
+  
   </style>
   
   </head>
@@ -130,12 +138,6 @@
   
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <div class="offcanvas-title main-logo d-block" id="offcanvasNavbarLabel">
-              <!-- <a class="navbar-brand" href="#">
-                                <img src="assets/logo/logos.png" alt="Logo" class="d-inline-block align-text-top p-2 logo">
-                                <h3>Agriya</h3>
-                            </a> -->
-            </div>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -192,25 +194,19 @@
     </nav>
 
     <section class="about-section" id="about">
-      
       <div class="section-content">
         <div class="about-image-wrapper">
           <img src="../assets/image/Yanyan/home.jpg" alt="About" class="about-image" />
         </div>
         <div class="about-details">
           <h2 class="section-title">About Us</h2>
-          <p class="text text-justify">Agriya, located in Panabo City, is a visionary community that blends modern living with sustainable farming. Inspired by
+          <p class="text" style="text-align: justify;">Agriya, located in Panabo City, is a visionary community that blends modern living with sustainable farming. Inspired by
           the city’s rich agricultural heritage as the "Banana Capital of the Philippines," Agriya offers a balanced lifestyle
           where urban convenience meets rural serenity. With features such as agri-tourism attractions, modern residences, an
           educational hub, and thoughtfully planned commercial spaces, Agriya fosters a thriving environment for families,
           businesses, and communities. It is home to the University of Southeastern Philippines – Agriya Campus and promotes
           sustainability through eco-friendly practices like rainwater harvesting and green spaces. At Agriya, innovation and
           agriculture come together to create a vibrant community that connects people to nature and the future.</p>
-          <!-- <div class="social-link-list">
-            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
-          </div> -->
         </div>
       </div>
     </section>
@@ -236,15 +232,15 @@
         <div class="instagram" data-aos="fade-left" data-aos-delay="200">
           <h2>Instagram</h2>
           <div class="flex-row">
-            <img src="./assets/image/IG/3.jpg" alt="insta1">
-            <img src="./assets/image/IG/6.jpg" alt="insta1">
-            <img src="./assets/image/IG/5.jpg" alt="insta1">
+            <img src="../assets/image/IG/3.jpg" alt="insta1">
+            <img src="../assets/image/IG/6.jpg" alt="insta1">
+            <img src="../assets/image/IG/5.jpg" alt="insta1">
     
           </div>
           <div class="flex-row">
-            <img src="./assets/image/concha/a1.jpg" alt="insta4">
-            <img src="./assets/image/IG/Township-Agriya-f2.jpg" alt="instas">
-            <img src="./assets/image/concha/a3.jpg" alt="insta4">
+            <img src="../assets/image/concha/a1.jpg" alt="insta4">
+            <img src="../assets/image/IG/Township-Agriya-f2.jpg" alt="instas">
+            <img src="../assets/image/concha/a3.jpg" alt="insta4">
           </div>
         </div>
         <div class="follow" data-aos="fade-left" data-aos-delay="200">
@@ -275,5 +271,10 @@
      <script src="../js/bootstrap.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script></script>
     <script src="js/main.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+
     </body>      
     </html>
