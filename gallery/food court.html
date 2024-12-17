@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriya</title>
+    <link rel="shortcut icon" href="../assets/logo/logos.png" type="image/x-icon">
+  <link rel="stylesheet" href="../../css/Style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../css/bootstrap.css">
+  <link rel="stylesheet" href="../../webfonts/all.css">
+  <link rel="stylesheet" href="../../css/all.css">  
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../css/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <style>
+      .nav-item {
+        padding: 0 20px;
+      }
+    
+      .nav-item:hover,
+      .nav-item.active {
+        background-color: rgb(2, 146, 67);
+        border-radius: 20px;
+      }
+    
+      .dropdown-menu {
+        background-color: var(--green);
+      }
+    
+      .dropdown-menu a {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    
+      .icon i {
+        font-size: 2rem;
+      }
+    
+      .logo {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border: #fffdfd 1px solid;
+        border-radius: 50%;
+        margin-left: 5%;
+      }
+    
+      .navbar-brand {
+        color: #ffffff;
+        font-size: 1.2rem;
+        /* text-indent: 10px; */
+        font-family: agriya;
+      }
+    
+      .nav {
+        background: var(--green);
+        margin: 20px;
+        border-radius: 20px;
+        padding: 0.5rem;
+        height: 60px;
+      }
+    
+      .navbar-toogler {
+        border: none;
+        outline: none;
+      }
+    
+      .navbar-toogler:focus,
+      .btn-close:focus {
+        box-shadow: none;
+        outline: none;
+      }
+    
+      .nav-item .nav-link {
+        color: #ffffff;
+        font-weight: 600;
+        position: relative;
+      }
+    
+      .nav-link.active {
+        color: #ffffff;
+      }
+    
+      .social-icon {
+        margin-right: 2%;
+      }
+    
+      .offcanvas-body {
+        background-color: #038041;
+        color: white;
+      }
+    
+      .offcanvas-header {
+        background: url(/assets/image/Yanyan/home.jpg) no-repeat center center / cover;
+    
+        min-height: 20vh;
+        object-fit: cover;
+        width: 100%;
+      }
+    
+      .btn-close {
+        position: relative;
+        top: -40%;
+        background-color: #ffffff;
+      }
+    
+      .btn {
+        font-weight: 600;
+        /* margin-right: 10%; */
+        padding: 0;
+        margin-top: 2%;
+      }
+    </style>
+    
+    </head>
+    
+    <body>
+      <nav class="navbar navbar-expand-lg fixed-top nav">
+        <div class="container-fluid titled">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/logo/logos.png" alt="Logo" class="logo d-inline-block align-text-top">
+            Agriya
+          </a>
+    
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <div class="offcanvas-title main-logo d-block" id="offcanvasNavbarLabel">
+                <!-- <a class="navbar-brand" href="#">
+                                  <img src="assets/logo/logos.png" alt="Logo" class="d-inline-block align-text-top p-2 logo">
+                                  <h3>Agriya</h3>
+                              </a> -->
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link text-light active btns" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown mt-1">
+    
+                  <button id="dropdownButton" class="btn dropdown-toggle border-0 text-light mr-2" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                  </button>
+                  <ul id="dropdownMenu" class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/gallery/playground.html">Playground</a></li>
+                    <li><a class="dropdown-item" href="/gallery/fishpond.html">Fishpond</a></li>
+                    <li><a class="dropdown-item" href="/gallery/farm.html">Farm</a></li>
+                    <li><a class="dropdown-item" href="/gallery/foodcourt.html">Food Court</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link text-light active btns" aria-current="page" href="../about/index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light active btns" aria-current="page" href="../contact/index.html">Contact</a>
+                </li>
+              </ul>
+              <div class="d-flex social-icon gap-3">
+                <div class="icon">
+                  <a href="">
+                    <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                  </a>
+                </div>
+                <div class="icon">
+                  <a href="">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                  </a>
+                </div>
+                <div class="icon">
+                  <a href="">
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      
+  <div class="wrapper container-fluid">
+    <div class="container text-center mb-5">
+      <h1>
+        Gallery
+      </h1>
+    </div>
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item" data-name="all">All</span>
+        <span class="item" data-name="Playground">Playground</span>
+        <span class="item" data-name="Fish Pond">Fish Pond</span>
+        <span class="item" data-name="Food Court">Food Court</span>
+        <span class="item  active" data-name="Farm">Farm</span>
+        <!-- <span class="item" data-name="headphone">Headphone</span> -->
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <!-- Playground -->
+      <!-- <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p1.jpg" alt=""></span></div> -->
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p2.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p3.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p4.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p5.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p6.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p7.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p8.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p9.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p10.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p11.jpg" alt=""></span></div>
+      <div class="image" data-name="Playground"><span><img src="../../assets/image/playground/p12.jpg" alt=""></span></div>
+      
+
+
+
+      <!-- <div class="image" data-name="headphone"><span><img src="images/headphone-2.jpg" alt=""></span></div> -->
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p4.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p5.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p6.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p7.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p8.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p9.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p10.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p11.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p12.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p13.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p14.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p15.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/1.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/a2.jpg" alt=""></span></div>
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/p18.jpg" alt=""></span></div>
+
+
+      <div class="image" data-name="Food Court"><span><img src="../../assets/image/new/c1.jpg" alt=""></span></div>
+      <div class="image" data-name="Food Court"><span><img src="../../assets/image/new/c2.jpg" alt=""></span></div>
+      <div class="image" data-name="Food Court"><span><img src="../../assets/image/new/c3.jpg" alt=""></span></div>
+      <div class="image" data-name="Food Court"><span><img src="../../assets/image/new/c4.jpg" alt=""></span></div>
+      <div class="image" data-name="Food Court"><span><img src="../../assets/image/new/c5.jpg" alt=""></span></div>
+      
+
+
+      <div class="image" data-name="Fish Pond"><span><img src="../../assets/image/fishpond/Copy of IMG_20241127_134530_7.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f2.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f3.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f1.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f4.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f5.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f6.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f7.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f8.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f9.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f10.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f11.jpg" alt=""></span></div>
+      <div class="image" data-name="Farm"><span><img src="../../assets/image/farm/f12.jpg" alt=""></span></div>
+    </div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <footer class="footer container-fluid">
+    <div class="container">
+      <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+        <h2>About us</h2>
+        <p>Agriya, located in the heart of Panabo City, is a visionary agricultural and residential development inspired
+          by the
+          harmonious blend of modern living and sustainable farming. This master-planned community reflects the rich
+          agricultural
+          heritage of Panabo City, known as the "Banana Capital of the Philippines," while embracing innovative practices
+          that
+          cater to the needs of the future.</p>
+      </div>
+      <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+        <h2>Email Us</h2>
+        <p>Stay update with our latest</p>
+        <div class="form-element">
+          <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+        </div>
+      </div>
+      <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+        <h2>Instagram</h2>
+        <div class="flex-row">
+          <img src="../assets/image/IG/3.jpg" alt="insta1">
+          <img src="../assets/image/IG/6.jpg" alt="insta1">
+          <img src="../assets/image/IG/5.jpg" alt="insta1">
+  
+        </div>
+        <div class="flex-row">
+          <img src="../assets/image/new/c5.jpg" alt="insta4">
+          <img src="../assets/image/fishpond/a2.jpg" alt="insta4">
+          <img src="../assets/image/new/farm.jpg" alt="insta4">
+        </div>
+      </div>
+      <div class="follow" data-aos="fade-left" data-aos-delay="200">
+        <h2>Follow us</h2>
+        <p>Let us be Social</p>
+        <div>
+          <a href="http://www.facebook.com/agriya.ph" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/agriya.ph" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mpbibat@anflocor.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="rights flex-row">
+      <h4 class="text-gray">
+        Copyright ©2024 All rights reserved | Promotional Website - Agriya
+        <a href="https://damosaland.com/" target="_black">Damosaland<i class="fab kyle"></i>
+          Channel</a>
+      </h4>
+    </div>
+    <div class="move-up">
+      <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+    </div>
+  </footer>
+  
+  <script src="../../js/Jquery3.4.1.min.js"></script>
+  <script src="../../js/owl.carousel.min.js"></script>
+  <!-- <script src="./js/bootstrap.js"></script> -->
+  <script src="../../js/aos.js"></script>
+  <script src="../../js/main.js"></script>
+  <script src="script.js"></script>
+  <script src="../../js/main/js"></script>
+   <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
